@@ -1,5 +1,0 @@
-{
-"meta":{"test_sets":["eval_dataset"],"test_metrics":[{"best_value":"Max","name":"AUC"}],"learn_metrics":[],"launch_mode":"Eval","parameters":"","iteration_count":1,"learn_sets":[],"name":""},
-"iterations":[
-{"iteration":0,"eval_dataset":[0.6714986981]}
-]}
