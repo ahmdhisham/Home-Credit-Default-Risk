@@ -37,10 +37,11 @@ Analyze loan applicant data provided by **Home Credit** and identify applicants 
       # Create new virtual environemnt     
       python -m venv .venv
 
-      # Activate the virtual environment
 
+      # Activate the virtual environment
       # On Windows:
       .venv\Scripts\activate
+      
       # On macOS/Linux:
       source .venv/bin/activate
 
@@ -50,7 +51,8 @@ Analyze loan applicant data provided by **Home Credit** and identify applicants 
 
 ### 4. Download and Prepare Data
       # Obtain the Home Credit Default Risk dataset from this link: https://drive.google.com/file/d/1Rj3uQVB8DSZkaPk4owMu66ANKIK_SsLk/view?usp=sharing.
-      # Place the downloaded files in the directory of the repository then extract it. Ensure the following structure:
+      # Place the downloaded files in the directory of the repository then extract it. 
+      # Ensure the following structure:
       home-credit-default-risk/
       ├── data/
       │   ├── columns_description
@@ -58,8 +60,8 @@ Analyze loan applicant data provided by **Home Credit** and identify applicants 
       │   ├── processed
       │   ├── raw
 
-      # For the PowerBI Dashboard you can download (df_visualization.csv) file and place it inside data/interim directory 
-      download (df_visualization.csv) from this link: https://drive.google.com/file/d/1t9yBe7D1hknI3YlU6CV2Bs72Dfd3OtXl/view?usp=sharing 
+      # For the PowerBI Dashboard you can download (df_visualization.csv) file and place it inside "data/interim" directory 
+      # Download (df_visualization.csv) from this link: https://drive.google.com/file/d/1t9yBe7D1hknI3YlU6CV2Bs72Dfd3OtXl/view?usp=sharing 
 
 ### 5. Run the Project
       # Option 1: Run the Streamlit Web Application
