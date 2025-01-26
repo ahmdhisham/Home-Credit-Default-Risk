@@ -20,6 +20,7 @@ In this project, we aim to develop a machine learning model to predict the likel
 ### 2. Create and Activate Virtual Environment
       python -m venv .venv
       # Activate the virtual environment
+
       # On Windows:
       .venv\Scripts\activate
       # On macOS/Linux:
@@ -30,22 +31,22 @@ In this project, we aim to develop a machine learning model to predict the likel
       pip install -r requirements.txt
 
 ### 4. Download and Prepare Data
-      # Obtain the Home Credit Default Risk dataset from Kaggle.
-      # Place the downloaded files in the data directory of the repository. Ensure the following structure:
-      home-credit-default-risk/
-      ├── data/
-      │   ├── application_train.csv
+Obtain the Home Credit Default Risk dataset from Kaggle.
+Place the downloaded files in the data directory of the repository. Ensure the following structure:
+      `home-credit-default-risk/`
+      `├── data/`
+      `│   ├── application_train.csv`
       │   ├── application_test.csv
       │   ├── other_csv_files.csv
       │   ├── other_csv_files.csv
 
 ### 5. Run the Project
       # Option 1: Run the Streamlit Web Application
-      Launch the Streamlit app to train models and evaluate metrics:
+      # Launch the Streamlit app to train models and evaluate metrics:
       streamlit run src/main.py
 
       # Option 2: Run All Scripts Using the Batch File
-      Use the .bat file to run all preprocessing and training steps:
+      # Use the .bat file to run all preprocessing and training steps:
       src/run_scripts.bat
 
 
