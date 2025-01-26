@@ -49,11 +49,13 @@ Analyze loan applicant data provided by **Home Credit** and identify applicants 
    - Includes the main code of the streamlit web application to train the model.
 4. **`run_scripts.bat`**:
    - Runs all the scripts once you launch it.
+     
 **Under notebooks directory**
 5. **`home_credit_notebook_part1.ipynb`**:
    - The first part of the primary notebook, including EDA and some preprocessing.
 6. **`home_credit_notebook_part2.ipynb`**:
    - The second part of the primary notebook, including EDA, preprocessing, model training and evaluation metrics.
+     
 **Under models directory**
 7. **`catboost_model.cbm`**:
    - The first part of the primary notebook, including EDA and some preprocessing.
