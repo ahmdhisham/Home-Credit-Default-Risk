@@ -14,8 +14,8 @@ In this project, we aim to develop a machine learning model to predict the likel
 
 ## Setup Instructions
 ### 1. Clone the Repository
-git clone https://github.com/your-username/home-credit-default-risk.git
-cd home-credit-default-risk
+      git clone https://github.com/your-username/home-credit-default-risk.git
+      cd home-credit-default-risk
 
 ### 2. Create and Activate Virtual Environment
 python -m venv .venv
