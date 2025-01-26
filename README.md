@@ -62,6 +62,14 @@ Analyze loan applicant data provided by **Home Credit** and identify applicants 
 7. **`catboost_model.cbm`**:
    - The first part of the primary notebook, including EDA and some preprocessing.
 
+**Under reports directory**
+
+8. **`model_results`**:
+   - The images of model evaluation graphs.
+9. **`Home_Credit_Dashboard.pbix`**:
+   - The dashboard of the business to come out with insights.
+     
+
 
 ## Machine Learning Techniques
 The **CatBoost Classifier model** was trained and evaluated on the processed data.
@@ -73,6 +81,7 @@ The **CatBoost Classifier model** was trained and evaluated on the processed dat
 
          0.0       0.96      0.71      0.82     70671
          1.0       0.17      0.68      0.27      6206
+
 
       accuracy                         0.71     76877
 
