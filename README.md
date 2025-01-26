@@ -17,7 +17,7 @@ Many individuals struggle to obtain loans due to insufficient or non-existent cr
 
 
 ### The repository contains the following components:
-**Notebooks:** Comprehensive notebooks showcasing data preprocessing, exploratory data analysis (EDA) techniques, model training, and performance evaluation.
+**Notebooks:** Notebooks containing data preprocessing, exploratory data analysis (EDA) techniques, model training, and performance evaluation.
 
 **Source Code:** Scripts dedicated to executing all data preprocessing steps, resulting in a fully cleaned dataset ready for analysis and modeling.
 
@@ -49,7 +49,7 @@ Analyze loan applicant data provided by **Home Credit** and identify applicants 
       pip install -r requirements.txt
 
 ### 4. Download and Prepare Data
-      # Obtain the Home Credit Default Risk dataset from https://drive.google.com/file/d/1Rj3uQVB8DSZkaPk4owMu66ANKIK_SsLk/view?usp=sharing.
+      # Obtain the Home Credit Default Risk dataset from this link: https://drive.google.com/file/d/1Rj3uQVB8DSZkaPk4owMu66ANKIK_SsLk/view?usp=sharing.
       # Place the downloaded files in the directory of the repository then extract it. Ensure the following structure:
       home-credit-default-risk/
       ├── data/
@@ -57,6 +57,9 @@ Analyze loan applicant data provided by **Home Credit** and identify applicants 
       │   ├── interim
       │   ├── processed
       │   ├── raw
+
+      # For the PowerBI Dashboard you can download (df_visualization.csv) file and place it inside data/interim directory 
+      download (df_visualization.csv) from this link: https://drive.google.com/file/d/1t9yBe7D1hknI3YlU6CV2Bs72Dfd3OtXl/view?usp=sharing 
 
 ### 5. Run the Project
       # Option 1: Run the Streamlit Web Application
