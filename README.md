@@ -31,11 +31,11 @@ In this project, we aim to develop a machine learning model to predict the likel
       pip install -r requirements.txt
 
 ### 4. Download and Prepare Data
-Obtain the Home Credit Default Risk dataset from Kaggle.
-Place the downloaded files in the data directory of the repository. Ensure the following structure:
-      `home-credit-default-risk/`
-      `├── data/`
-      `│   ├── application_train.csv`
+      # Obtain the Home Credit Default Risk dataset from Kaggle.
+      # Place the downloaded files in the data directory of the repository. Ensure the following structure:
+      home-credit-default-risk/
+      ├── data/
+      │   ├── application_train.csv
       │   ├── application_test.csv
       │   ├── other_csv_files.csv
       │   ├── other_csv_files.csv
@@ -108,6 +108,17 @@ Analyze loan applicant data provided by **Home Credit** and identify applicants 
    - The images of model evaluation graphs.
 9. **`Home_Credit_Dashboard.pbix`**:
    - The dashboard of the business to come out with insights.
+
+**Under data directory**
+
+10. **`columns_description`**:
+   - Description of the columns in the dataset.
+11. **`interim`**:
+   - Interim data (semi-processed data).
+11. **`processed`**:
+   - Processed data.
+11. **`raw`**:
+   - raw data.
      
 
 ## Machine Learning Techniques
