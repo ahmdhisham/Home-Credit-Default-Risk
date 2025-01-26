@@ -47,9 +47,10 @@ Analyze loan applicant data provided by **Home Credit** and identify applicants 
       cd home-credit-default-risk
 
 ### 2. Create and Activate Virtual Environment
+      # Create new virtual environemnt     
       python -m venv .venv
-      # Activate the virtual environment
 
+      # Activate the virtual environment
       # On Windows:
       .venv\Scripts\activate
       # On macOS/Linux:
@@ -109,16 +110,16 @@ Analyze loan applicant data provided by **Home Credit** and identify applicants 
 9. **`Home_Credit_Dashboard.pbix`**:
    - The dashboard of the business to come out with insights.
 
-**Under data directory**
+**Under data directory (after you follow the setup instructions and download it)**
 
 10. **`columns_description`**:
-   - Description of the columns in the dataset.
+   - Description of the columns in the dataset folder.
 11. **`interim`**:
-   - Interim data (semi-processed data).
-11. **`processed`**:
-   - Processed data.
-11. **`raw`**:
-   - raw data.
+   - Interim data folder (semi-processed data).
+12. **`processed`**:
+   - Processed data folder.
+13. **`raw`**:
+   - raw data folder.
      
 
 ## Machine Learning Techniques
