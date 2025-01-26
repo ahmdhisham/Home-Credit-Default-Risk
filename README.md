@@ -14,39 +14,39 @@ In this project, we aim to develop a machine learning model to predict the likel
 
 ## Setup Instructions
 ### 1. Clone the Repository
-      git clone https://github.com/your-username/home-credit-default-risk.git
+      git clone https://github.com/ahmdhisham/Home-Credit-Default-Risk.git
       cd home-credit-default-risk
 
 ### 2. Create and Activate Virtual Environment
-python -m venv .venv
-Activate the virtual environment
-On Windows:
-.venv\Scripts\activate
-On macOS/Linux:
-source .venv/bin/activate
+      python -m venv .venv
+      # Activate the virtual environment
+      # On Windows:
+      .venv\Scripts\activate
+      # On macOS/Linux:
+      source .venv/bin/activate
 
 ### 3. Install Dependencies
-Install all the required Python packages listed in requirements.txt:
-pip install -r requirements.txt
+      # Install all the required Python packages listed in requirements.txt:
+      pip install -r requirements.txt
 
 ### 4. Download and Prepare Data
-Obtain the Home Credit Default Risk dataset from Kaggle.
-Place the downloaded files in the data directory of the repository. Ensure the following structure:
-home-credit-default-risk/
-├── data/
-│   ├── application_train.csv
-│   ├── application_test.csv
-│   ├── other_csv_files.csv
-│   ├── other_csv_files.csv
+      # Obtain the Home Credit Default Risk dataset from Kaggle.
+      # Place the downloaded files in the data directory of the repository. Ensure the following structure:
+      home-credit-default-risk/
+      ├── data/
+      │   ├── application_train.csv
+      │   ├── application_test.csv
+      │   ├── other_csv_files.csv
+      │   ├── other_csv_files.csv
 
 ### 5. Run the Project
-Option 1: Run the Streamlit Web Application
-Launch the Streamlit app to train models and evaluate metrics:
-streamlit run src/main.py
+      # Option 1: Run the Streamlit Web Application
+      Launch the Streamlit app to train models and evaluate metrics:
+      streamlit run src/main.py
 
-Option 2: Run All Scripts Using the Batch File
-Use the .bat file to run all preprocessing and training steps:
-src/run_scripts.bat
+      # Option 2: Run All Scripts Using the Batch File
+      Use the .bat file to run all preprocessing and training steps:
+      src/run_scripts.bat
 
 
 ## Overview
