@@ -3,13 +3,42 @@ In this project, we aim to develop a machine learning model to predict the likel
 
 
 ## Table of Contents
-- [Setup Instructions](#setup-instructions) 
 - [Overview](#overview)
 - [Objective](#objective)
 - [Workflow](#workflow)
+- [Setup Instructions](#setup-instructions) 
 - [Project Structure](#project-structure)
 - [Machine Learning Techniques](#machine-learning-techniques)
 - [Evaluation Results](#evaluation-results)
+
+
+## Overview
+Many individuals struggle to obtain loans due to insufficient or non-existent credit histories. **Home Credit** aims to enhance financial inclusion for the unbanked population by offering a secure and positive borrowing experience. This project leverages alternative data to assess clients' repayment abilities and predict which applicants are most likely to default.
+
+
+### The repository contains the following components:
+**Notebooks:** Comprehensive notebooks showcasing data preprocessing, exploratory data analysis (EDA) techniques, model training, and performance evaluation.
+
+**Source Code:** Scripts dedicated to executing all data preprocessing steps, resulting in a fully cleaned dataset ready for analysis and modeling.
+
+**Streamlit Web Application:** An interactive web application that facilitates training a CatBoost model, provides evaluation metrics, and outputs the final trained model in a (.cbm) format.
+
+
+## Objective
+Analyze loan applicant data provided by **Home Credit** and identify applicants most likely to default using machine learning techniques.
+
+
+## Workflow
+1. **Data Preprocessing**:
+   - Automated using a separate Python file (`preprocessing_functions.py`) for reusable functions.
+2. **Model Training**:
+   - Trained multiple machine learning models to evaluate default risk.
+3. **Model Evaluation**:
+   - Assessed model performance using metrics such as accuracy, precision, recall, F1-score, and AUC.
+4. **Model Tracking**:
+   - Tracked experiments and results using **MLflow** for reproducibility.
+5. **Comparison of Model Metrics**:
+   - Selected the best model based on evaluation results.
 
 
 ## Setup Instructions
@@ -48,35 +77,6 @@ In this project, we aim to develop a machine learning model to predict the likel
       # Option 2: Run All Scripts Using the Batch File
       # Use the .bat file to run all preprocessing and training steps:
       src/run_scripts.bat
-
-
-## Overview
-Many individuals struggle to obtain loans due to insufficient or non-existent credit histories. **Home Credit** aims to enhance financial inclusion for the unbanked population by offering a secure and positive borrowing experience. This project leverages alternative data to assess clients' repayment abilities and predict which applicants are most likely to default.
-
-
-### The repository contains the following components:
-**Notebooks:** Comprehensive notebooks showcasing data preprocessing, exploratory data analysis (EDA) techniques, model training, and performance evaluation.
-
-**Source Code:** Scripts dedicated to executing all data preprocessing steps, resulting in a fully cleaned dataset ready for analysis and modeling.
-
-**Streamlit Web Application:** An interactive web application that facilitates training a CatBoost model, provides evaluation metrics, and outputs the final trained model in a (.cbm) format.
-
-
-## Objective
-Analyze loan applicant data provided by **Home Credit** and identify applicants most likely to default using machine learning techniques.
-
-
-## Workflow
-1. **Data Preprocessing**:
-   - Automated using a separate Python file (`preprocessing_functions.py`) for reusable functions.
-2. **Model Training**:
-   - Trained multiple machine learning models to evaluate default risk.
-3. **Model Evaluation**:
-   - Assessed model performance using metrics such as accuracy, precision, recall, F1-score, and AUC.
-4. **Model Tracking**:
-   - Tracked experiments and results using **MLflow** for reproducibility.
-5. **Comparison of Model Metrics**:
-   - Selected the best model based on evaluation results.
 
 
 ## Project Structure
