@@ -31,13 +31,14 @@ Analyze loan applicant data provided by **Home Credit** and identify applicants 
 ## Setup Instructions
 ### 1. Clone the Repository
       git clone https://github.com/ahmdhisham/Home-Credit-Default-Risk.git
-      cd home-credit-default-risk
+      cd Home-Credit-Default-Risk
 
 ### 2. Create and Activate Virtual Environment
       # Create new virtual environemnt     
       python -m venv .venv
 
       # Activate the virtual environment
+
       # On Windows:
       .venv\Scripts\activate
       # On macOS/Linux:
@@ -48,14 +49,14 @@ Analyze loan applicant data provided by **Home Credit** and identify applicants 
       pip install -r requirements.txt
 
 ### 4. Download and Prepare Data
-      # Obtain the Home Credit Default Risk dataset from Kaggle.
-      # Place the downloaded files in the data directory of the repository. Ensure the following structure:
+      # Obtain the Home Credit Default Risk dataset from https://drive.google.com/file/d/1Rj3uQVB8DSZkaPk4owMu66ANKIK_SsLk/view?usp=sharing.
+      # Place the downloaded files in the directory of the repository then extract it. Ensure the following structure:
       home-credit-default-risk/
       ├── data/
-      │   ├── application_train.csv
-      │   ├── application_test.csv
-      │   ├── other_csv_files.csv
-      │   ├── other_csv_files.csv
+      │   ├── columns_description
+      │   ├── interim
+      │   ├── processed
+      │   ├── raw
 
 ### 5. Run the Project
       # Option 1: Run the Streamlit Web Application
@@ -120,7 +121,7 @@ Analyze loan applicant data provided by **Home Credit** and identify applicants 
    - Tracked experiments and results using **MLflow** for reproducibility.
 5. **Comparison of Model Metrics**:
    - Selected the best model based on evaluation results.
-        
+
 
 ## Machine Learning Techniques
 The **CatBoost Classifier model** was trained and evaluated on the processed data.
