@@ -1,5 +1,5 @@
 # Home Credit Default Risk
-In this project, we aim to develop a machine learning model to predict the likelihood of a customer defaulting on a home credit loan. leveraging past application data to help financial institutions evaluate loan eligibility and mitigate credit risk. This is a classification problem where the target variable is binary, indicating whether the customer will **default (1)** or **not (0)**.
+In this project, we aim to develop a machine learning model to predict the likelihood of a customer defaulting on a home credit loan. leveraging past application data to help financial institutions evaluate loan eligibility and mitigate credit risk. This is a classification problem where the target variable is binary, indicating whether the customer will **have difficulties (1)** or **not (0)**.
 
 
 ## Table of Contents
