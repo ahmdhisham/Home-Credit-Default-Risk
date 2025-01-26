@@ -5,13 +5,10 @@ In this project, we aim to develop a machine learning model to predict the likel
 ## Table of Contents
 - [Overview](#overview)
 - [Objective](#objective)
-- [Steps](#steps)
-- [Tech Stack](#tech-stack)
+- [Workflow](#workflow)
 - [Project Structure](#project-structure)
 - [Machine Learning Techniques](#machine-learning-techniques)
 - [Evaluation Results](#evaluation-results)
-- [System Flowchart](#system-flowchart)
-- [Evaluation Metrics](#evaluation-metrics)
 
 
 ## Overview
@@ -29,7 +26,7 @@ Many individuals struggle to obtain loans due to insufficient or non-existent cr
 Analyze loan applicant data provided by **Home Credit** and identify applicants most likely to default using machine learning techniques.
 
 
-## Steps
+## Workflow
 1. **Data Preprocessing**:
    - Automated using a separate Python file (`preprocessing_functions.py`) for reusable functions.
 2. **Model Training**:
@@ -43,11 +40,23 @@ Analyze loan applicant data provided by **Home Credit** and identify applicants 
 
 
 ## Project Structure
-1. **`preprocessing_functions.py`**:
-   - Includes all necessary library imports and reusable functions.
-   - Automates data preprocessing and utility functions.
-2. **`Application.ipynb`**:
-   - The primary notebook, importing `preprocessing_functions.py` to streamline the workflow.
+**Under src directory**
+1. **`utils.py`**:
+   - Includes reusable functions.
+2. **`preprocessing.py`**:
+   - Includes all the data preprocessing made in one script.
+3. **`main.py`**:
+   - Includes the main code of the streamlit web application to train the model.
+4. **`run_scripts.bat`**:
+   - Runs all the scripts once you launch it.
+**Under notebooks directory**
+5. **`home_credit_notebook_part1.ipynb`**:
+   - The first part of the primary notebook, including EDA and some preprocessing.
+6. **`home_credit_notebook_part2.ipynb`**:
+   - The second part of the primary notebook, including EDA, preprocessing, model training and evaluation metrics.
+**Under models directory**
+7. **`catboost_model.cbm`**:
+   - The first part of the primary notebook, including EDA and some preprocessing.
 
 
 ## Machine Learning Techniques
@@ -62,8 +71,9 @@ The **CatBoost Classifier model** was trained and evaluated on the processed dat
          1.0       0.17      0.68      0.27      6206
 
     accuracy                           0.71     76877
-   macro avg       0.57      0.70      0.55     76877
-weighted avg       0.90      0.71      0.77     76877
 
-ROC AUC Score: 0.7631627636329994
+      macro avg    0.57      0.70      0.55     76877
+      weighted avg 0.90      0.71      0.77     76877
+
+**ROC AUC Score: 0.7631627636329994**
 
