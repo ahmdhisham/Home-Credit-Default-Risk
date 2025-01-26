@@ -19,7 +19,9 @@ Many individuals struggle to obtain loans due to insufficient or non-existent cr
 
 ### The repository contains the following components:
 **Notebooks:** Comprehensive notebooks showcasing data preprocessing, exploratory data analysis (EDA) techniques, model training, and performance evaluation.
+
 **Source Code:** Scripts dedicated to executing all data preprocessing steps, resulting in a fully cleaned dataset ready for analysis and modeling.
+
 **Streamlit Web Application:** An interactive web application that facilitates training a CatBoost model, provides evaluation metrics, and outputs the final trained model in a (.cbm) format.
 
 
