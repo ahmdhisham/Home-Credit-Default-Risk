@@ -5,9 +5,9 @@ In this project, we aim to develop a machine learning model to predict the likel
 ## Table of Contents
 - [Overview](#overview)
 - [Objective](#objective)
-- [Workflow](#workflow)
 - [Setup Instructions](#setup-instructions) 
 - [Project Structure](#project-structure)
+- [Workflow](#workflow)
 - [Machine Learning Techniques](#machine-learning-techniques)
 - [Evaluation Results](#evaluation-results)
 
@@ -26,19 +26,6 @@ Many individuals struggle to obtain loans due to insufficient or non-existent cr
 
 ## Objective
 Analyze loan applicant data provided by **Home Credit** and identify applicants most likely to default using machine learning techniques.
-
-
-## Workflow
-1. **Data Preprocessing**:
-   - Automated using a separate Python file (`preprocessing_functions.py`) for reusable functions.
-2. **Model Training**:
-   - Trained multiple machine learning models to evaluate default risk.
-3. **Model Evaluation**:
-   - Assessed model performance using metrics such as accuracy, precision, recall, F1-score, and AUC.
-4. **Model Tracking**:
-   - Tracked experiments and results using **MLflow** for reproducibility.
-5. **Comparison of Model Metrics**:
-   - Selected the best model based on evaluation results.
 
 
 ## Setup Instructions
@@ -120,7 +107,20 @@ Analyze loan applicant data provided by **Home Credit** and identify applicants 
    - Processed data folder.
 13. **`raw`**:
    - raw data folder.
-     
+
+
+## Workflow
+1. **Data Preprocessing**:
+   - Automated using a separate Python file (`preprocessing_functions.py`) for reusable functions.
+2. **Model Training**:
+   - Trained multiple machine learning models to evaluate default risk.
+3. **Model Evaluation**:
+   - Assessed model performance using metrics such as accuracy, precision, recall, F1-score, and AUC.
+4. **Model Tracking**:
+   - Tracked experiments and results using **MLflow** for reproducibility.
+5. **Comparison of Model Metrics**:
+   - Selected the best model based on evaluation results.
+        
 
 ## Machine Learning Techniques
 The **CatBoost Classifier model** was trained and evaluated on the processed data.
