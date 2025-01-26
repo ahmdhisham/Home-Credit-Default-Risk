@@ -74,7 +74,7 @@ The **CatBoost Classifier model** was trained and evaluated on the processed dat
          0.0       0.96      0.71      0.82     70671
          1.0       0.17      0.68      0.27      6206
 
-    accuracy                           0.71     76877
+      accuracy                         0.71     76877
 
       macro avg    0.57      0.70      0.55     76877
       weighted avg 0.90      0.71      0.77     76877
