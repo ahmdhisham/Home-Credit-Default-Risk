@@ -118,7 +118,8 @@ Analyze loan applicant data provided by **Home Credit** and identify applicants 
 
 ## Workflow
 1. **Exploratory Data Analysis (EDA)**:
-   - Performing EDA techniques using Python and Excel to understand the data.
+   - Explored the data using Python and Excel to understand it.
+   - 
 2. **Data Preprocessing**:
    - Eliminating weak relational columns after reviewing their descriptions and observations.
    - Dealing with some noisy values.
@@ -129,10 +130,13 @@ Analyze loan applicant data provided by **Home Credit** and identify applicants 
    - Performed aggregation of some columns across seven tables and merged them with the main table.
    - Utilized a robust scaler since the data contains outliers that should not be clipped.
    - Prepare and split the data.
+   - 
 3. **Model Training**:
    - Trained Catboost Classification model to evaluate default risk.
+   - 
 4. **Model Evaluation**:
    - Assessed model performance using metrics such as accuracy, precision, recall, F1-score, and AUC.
+   - 
 5. **Fine-tuning**:
    - Fine-tuned the hyperparameters for the best results.
 
