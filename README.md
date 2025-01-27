@@ -158,4 +158,6 @@ The **CatBoost Classifier model** was choosed as this model is well-suited for i
 
 
 ![ROC curve](https://github.com/ahmdhisham/Home-Credit-Default-Risk/blob/main/reports/model_results/ROC_curve.png)
+
+
 ![Most significant features](https://github.com/ahmdhisham/Home-Credit-Default-Risk/blob/main/reports/model_results/most_significant_features.png)
