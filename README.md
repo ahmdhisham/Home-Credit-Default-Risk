@@ -61,8 +61,10 @@ Analyze loan applicant data provided by **Home Credit** and identify applicants 
       │   ├── processed
       │   ├── raw
 
-      # For the PowerBI Dashboard you can download (df_visualization.csv) file and place it inside "data/interim" directory 
-      # Download (df_visualization.csv) from this link: https://drive.google.com/file/d/1t9yBe7D1hknI3YlU6CV2Bs72Dfd3OtXl/view?usp=sharing 
+      # For the PowerBI Dashboard you can download (df_visualization.csv) file and place it inside "data/interim" directory
+      # - Download (df_visualization.csv) from this link: https://drive.google.com/file/d/1t9yBe7D1hknI3YlU6CV2Bs72Dfd3OtXl/view?usp=sharing
+      # - Place it inside "data/interim" directory
+      # - Connect the PowerBI with the data
 
 ### 5. Run the Project
       # Option 1: Run the notebooks to clean the data, train the model and evaluate its metrics
