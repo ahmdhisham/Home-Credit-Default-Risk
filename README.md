@@ -156,3 +156,5 @@ The **CatBoost Classifier model** was choosed as this model is well-suited for i
 
 **ROC AUC Score: 0.7631627636329994**
 
+
+![ROC curve](https://github.com/ahmdhisham/Home-Credit-Default-Risk/blob/main/reports/model_results/ROC_curve.png)
