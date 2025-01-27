@@ -65,9 +65,7 @@ Analyze loan applicant data provided by **Home Credit** and identify applicants 
       # Download (df_visualization.csv) from this link: https://drive.google.com/file/d/1t9yBe7D1hknI3YlU6CV2Bs72Dfd3OtXl/view?usp=sharing 
 
 ### 5. Run the Project
-      # Option 1: Run the Streamlit Web Application
-      # Launch the Streamlit app to train models and evaluate metrics:
-      streamlit run src/main.py
+      # Option 1: Run the notebooks to clean the data, train the model and evaluate its metrics
 
       # Option 2: Run All Scripts Using the Batch File
       # Use the .bat file to run all preprocessing and training steps:
@@ -138,7 +136,7 @@ Analyze loan applicant data provided by **Home Credit** and identify applicants 
 
 
 ## Machine Learning Techniques
-The **CatBoost Classifier model** was trained and evaluated on the processed data.
+The **CatBoost Classifier model** was choosed as this model is well-suited for imbalanced data and works natively with categorical features. The model was trained and evaluated on the processed data.
 
 
 ## Evaluation Results
