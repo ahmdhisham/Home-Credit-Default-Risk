@@ -50,7 +50,7 @@ Analyze loan applicant data provided by **Home Credit** and identify applicants 
       pip install -r requirements.txt
 
 ### 4. Download and Prepare Data
-      # Obtain the Home Credit Default Risk dataset from this link: https://drive.google.com/file/d/1Rj3uQVB8DSZkaPk4owMu66ANKIK_SsLk/view?usp=sharing.
+      # Obtain the Home Credit Default Risk dataset from this link: https://drive.google.com/file/d/1Rj3uQVB8DSZkaPk4owMu66ANKIK_SsLk/view?usp=sharing
       # Place the downloaded files in the directory of the repository then extract it.
       
       # Ensure the following structure:
