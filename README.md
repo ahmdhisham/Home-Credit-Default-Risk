@@ -95,7 +95,7 @@ Analyze loan applicant data provided by **Home Credit** and identify applicants 
 **Under models directory**
 
 7. **`catboost_model.cbm`**:
-   - The first part of the primary notebook, including EDA and some preprocessing.
+   - The final trained model in a (.cbm) format.
 
 **Under reports directory**
 
